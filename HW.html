@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            class="search-input"
+            id="search-input"
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+      </header>
+      <main>
+        <div class="current-weather">
+          <div>
+            <h1 class="current-city">Paris</h1>
+            <p class="current-details">
+              <span id="time">Saturday 15:32</span>, moderate rain
+              <br />
+              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+            </p>
+          </div>
+          <div class="current-temperature">
+            <span class="current-temperature-icon">☀️</span
+            ><span class="current-temperature-value">24</span
+            ><span class="current-temperature-unit">°C</span>
+          </div>
+        </div>
+        <div class="Weekly-weather">
+          <ul>
+            <li>
+              Sun 🌥
+              <p><strong>14°</strong> - 18°</p>
+            </li>
+            <li>
+              Mon 🌥
+              <p><strong>14°</strong> - 18°</p>
+            </li>
+            <li>
+              Tue 🌥
+              <p><strong>14°</strong> - 18°</p>
+            </li>
+            <li>
+              Wed 🌥
+              <p><strong>14°</strong> - 18°</p>
+            </li>
+            <li>
+              Thur 🌥
+              <p><strong>14°</strong> - 18°</p>
+            </li>
+          </ul>
+        </div>
+      </main>
+      <footer>
+        <p>
+          This project was coded by
+          <a href="#" target="_blank">Lunathi Mpame</a> and is
+          <a href="#" target="_blank"> on GitHub</a> and
+          <a href="#" target="_blank">hosted on Netlify</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
